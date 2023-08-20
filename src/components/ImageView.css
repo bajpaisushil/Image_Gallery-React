@@ -1,0 +1,35 @@
+.imageview_container{
+    height: 80vh;
+    font-family: sans-serif;
+    margin: 5% auto auto auto;
+    width: 100%;
+    background-color: #042e5e;
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+  align-items: center; /* Vertically center items */
+  justify-content: center;
+}
+.imageview_image_container{
+}
+.imageview_image{
+    margin: 3rem 2rem auto 2rem;
+    width: 25rem;
+    height: 24rem;
+    border-radius: 3rem;
+
+}
+.imageview_contents{
+    height: fit-content;
+}
+.imageview_title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin: auto auto 2rem auto;
+}
+.imageview_desc{
+    font-size: 1.8rem;
+    color: white;
+}
+
